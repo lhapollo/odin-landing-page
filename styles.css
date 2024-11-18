@@ -3,7 +3,7 @@ body {
   margin: 0;  
 }
 
-header, .hero-container, .info-section-container, .quote-section-container, .action-section-container {
+header, .hero-container, .info-section-container, .quote-section-container, .action-section-container, footer {
     border: 1px solid red;
     padding-left: 150px;
     padding-right: 150px;
@@ -170,4 +170,12 @@ h4 {
 
 .action-text p {
     margin: 0;
+}
+
+footer {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
