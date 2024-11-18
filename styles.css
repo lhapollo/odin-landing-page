@@ -3,13 +3,13 @@ body {
   margin: 0;  
 }
 
-header, .hero-container, .info-section-container, .quote-section-container {
+header, .hero-container, .info-section-container, .quote-section-container, .action-section-container {
     border: 1px solid red;
     padding-left: 150px;
     padding-right: 150px;
 }
 
-header, .header-links, .hero-container, .info-section-container, .quote-section-container {
+header, .header-links, .hero-container, .info-section-container, .quote-section-container, .action-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,4 +136,38 @@ button {
 
 .quote-author {
     text-align: right;
+}
+
+.action-section-container {
+    height: 200px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    width: 80%;
+    height: 40%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.action-text {
+    border: 1px solid lime;
+    width: 60%;
+    color: #E5E7EB;
+}
+
+h4 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.action-btn button {
+    border: 1px solid white;
+}
+
+.action-text p {
+    margin: 0;
 }
